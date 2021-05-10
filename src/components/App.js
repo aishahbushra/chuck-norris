@@ -10,7 +10,7 @@ function App() {
   const [lastName, setLastName] = useState('Norris');
   const [errorMessage, setErrorMessage] = useState('');
   
-  const explicitEndpoint = `http://api.icndb.com/jokes/random?firstName=${firstName}&lastName=${lastName}`;
+  const explicitEndpoint = `https://api.icndb.com/jokes/random?firstName=${firstName}&lastName=${lastName}`;
     
     const getJoke = () => {
       axios
