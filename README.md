@@ -4,6 +4,10 @@
 
 An application used to retrieve data from Twitter a Chuck Norris API, built with React, JavaScript, and SASS.
 
+## See Deployed App here:
+
+`https://aishah-norris.netlify.app/`
+
 ## Installation and SetUp Instruction
 
 #You will need `npm` installed on your machine.
