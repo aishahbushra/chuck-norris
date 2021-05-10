@@ -24,6 +24,7 @@ function App() {
     
     useEffect(() => {
       getJoke(setJoke, setCategories, setFirstName, setLastName)
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
     
     const handleChangeName = (e) => {
